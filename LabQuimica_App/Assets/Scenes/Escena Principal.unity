@@ -269,13 +269,17 @@ MonoBehaviour:
   modelsToActivate:
   - {fileID: 165585583}
   - {fileID: 2089110258}
-  - {fileID: 927210627}
-  - {fileID: 40919614}
   modelsToDeactivate:
-  - {fileID: 463930438}
-  - {fileID: 633987594}
   - {fileID: 2126378727}
   - {fileID: 1189762167}
+  modelsToActivateWithDelay:
+  - {fileID: 927210627}
+  - {fileID: 40919614}
+  modelsToDeactivateWithDelay:
+  - {fileID: 463930438}
+  - {fileID: 633987594}
+  activationDelay: 1
+  deactivationDelay: 1
 --- !u!1001 &112577649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -864,7 +868,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551195347}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3161,13 +3165,16 @@ MonoBehaviour:
   - {fileID: 1985308837}
   modelsToActivate:
   - {fileID: 1985308836}
-  - {fileID: 40919614}
-  - {fileID: 1577749883}
   modelsToDeactivate:
   - {fileID: 165585583}
   - {fileID: 2089110258}
   - {fileID: 927210627}
+  modelsToActivateWithDelay:
+  - {fileID: 1577749883}
+  modelsToDeactivateWithDelay:
   - {fileID: 40919614}
+  activationDelay: 2
+  deactivationDelay: 2
 --- !u!1001 &1780129549
 PrefabInstance:
   m_ObjectHideFlags: 0
